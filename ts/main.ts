@@ -13,7 +13,7 @@ function main():void{
  * Return true if the text box with the given id has some text inside of it
  * @param id the id of the <input type="text"> to validate
  * @param errMsg the message to display in the sibling span of the textbox
- */
+ */ 
 function isTextPresent(id:string, errMsg:string):boolean {
     let txtBox = <HTMLInputElement>document.getElementById(id);
     let txtBoxValue = txtBox.value;
