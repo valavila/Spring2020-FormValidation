@@ -3,6 +3,10 @@ form  > span{
 }
 h1{
     text-align: center;
+    font-family: 'Indie flower', cursive;
+}
+h1, form label, form button, form input, form span{
+    font-family: 'Indie flower', cursive;
 }
 body{
     margin-left: 5%;
